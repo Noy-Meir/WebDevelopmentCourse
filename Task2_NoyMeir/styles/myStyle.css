@@ -1,0 +1,36 @@
+body {
+    direction: rtl;
+     height:100%;
+}
+.size{
+    height:40px;
+    width:40px;
+}
+#container{
+background-image: url('../images/reka.jpg');
+    text-align:center;
+    background-repeat:no-repeat;
+    background-size:cover;
+    height:100%;
+   
+    margin: 0 auto;
+}
+h1{
+    font-size:44pt;
+    color:palevioletred;
+    
+}
+h2{
+    font-size:24pt;
+    margin-top:10px;
+    margin-bottom:10px;
+}
+#instahover:hover {
+    width: 60PX;
+    height: 60PX;
+    position:absolute;
+}#facehover:hover {
+    width: 60PX;
+    height: 60PX;
+    position:absolute;
+}
