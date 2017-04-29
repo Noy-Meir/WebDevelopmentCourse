@@ -1,0 +1,147 @@
+@font-face {
+    font-family: 'Rubik-Regular';
+    src: url('../font/Rubik/Rubik-Regular.ttf') format('truetype');
+}
+
+
+body {
+    direction: rtl;
+    background-image: url('../images/Grey-Gradient.jpg');
+    background-size: cover;
+}
+
+#container {
+    margin: 0 auto;
+    width: 960px;
+    font-family: Rubik-Regular;
+}
+
+#logo {
+    font-weight: bolder;
+    font-size: 54pt;
+    display: inline-block;
+    width: 300px;
+    margin-bottom: 5px;
+}
+
+#rashi {
+    float: left;
+    margin-top: 10px;
+}
+
+nav.tafritrashi ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+    nav.tafritrashi ul li {
+        display: inline-block;
+    }
+
+a:hover {
+    color: sandybrown;
+}
+
+nav.tafritrashi ul li a#open {
+    color: sandybrown;
+    font-weight: bold;
+    text-decoration-line: underline;
+}
+
+#rashi ul li ul {
+    display: none;
+    position: absolute;
+}
+
+#rashi ul li ul li{
+    display:block;
+        width: 130px;
+}
+#rashi ul li:hover ul {
+    display: block;
+    width: 130px;
+    line-height: 200%;
+    margin-right: 10px;
+}
+
+#me {
+    padding-top: 20px;
+    text-align: center;
+}
+
+#about {
+    line-height: 140%;
+    margin-top: 0px;
+    padding: 20px;
+    font-size: 16pt;
+}
+
+#home {
+    height: 490px;
+    width: 700px;
+    background: rgba(255,255,255,0.2);
+    border-radius: 7px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#contact {
+    text-align: center;
+    margin-top: 25px;
+}
+
+form {
+    display: block;
+    margin-right: 300px;
+    margin-top: 20px;
+}
+
+input, textarea {
+    width: 60%;
+    padding: 10px 10px;
+    margin: 8px 0;
+}
+
+#avodot2 {
+    margin-top: 50px;
+}
+
+.viewproject {
+    border: 10px solid white;
+    background-image: url('../images/naatz.png');
+}
+
+    .viewproject:hover {
+        border: 10px solid orange;
+    }
+
+#elza, #craza {
+    margin-right: 150px;
+    margin-top: 10px;
+}
+
+#elza {
+    margin-bottom: 60px;
+}
+
+.coteret {
+    color: orange;
+    font-size: 28pt;
+    margin-top: 10px;
+}
+
+.hesber {
+    padding-bottom: 20px;
+    font-size: 14pt;
+    width: 670px;
+    line-height: 140%;
+    text-align: justify;
+}
+
+.project {
+    border: 7px solid black;
+}

@@ -1,0 +1,82 @@
+﻿<!doctype html>
+<html lang="he">
+<head>
+    <meta charset="utf-8" />
+    <title>נוי מאיר | צור קשר</title>
+    <meta name="description" content="כאן תמצאו את כל העבודות והתוצרים שביצעתי במהלך לימודיי" />
+    <meta name="keywords" content="נוי מאיר, תיק עבודות, פרויקט, עבודה, צור קשר" />
+    <meta name="author" content="נוי מאיר" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+    <!-- CSS -->
+    <link href="styles/reset.css" rel="stylesheet" />
+    <link href="styles/myStyle.css" rel="stylesheet" />
+
+
+    <!-- Scripts -->
+    <script src="jScripts/jquery-1.12.0.min.js"></script>
+    <script src="https://webdevelopmentcourse.github.io/contactUs/WebDevelopmentCourse/jScripts/contactUs.js" type="text/javascript"></script>
+</head>
+<body>
+    <div id="container">
+        <header>
+            <h1 id="logo">נוי מאיר</h1>
+            <nav class="tafritrashi" id="rashi">
+                <ul>
+                    <li> <a href="index.html"> אודות</a> | </li>
+                    <li> <a href="avodot.html"> תיק עבודות </a> |
+                        <ul>
+                            <li><a href="hazotit.html">רעש</a></li>
+                            <li> <a href="maria.html"> איכות הסביבה</a> </li>
+                            <li> <a href="ecard.html">כרטיס ברכה</a> </li>
+                            <li> <a href="craza.html">כרזה</a> </li>
+                            <li> <a href="elza.html">חבר את הנקודות</a> </li>
+                        </ul> </li>
+                    <li> <a href="kesher.html" id="open">צור קשר </a> </li>
+                </ul>
+            </nav>
+        </header>
+        <section>
+            <div id="contact">
+                Noy2432@gmail.com  | 054-2435058 |<a href="https://www.facebook.com/noym1" target="_blank"> Facebook </a>
+            </div>
+        </section>
+        <div>
+            <form>
+                <input type="hidden" id="myEmail" name="name" value="noy2432@gmail.com" />
+                <label for="FullName">
+                    שם מלא:
+                    <br />
+                    <input type="text" id="FirstName" />
+                </label>
+                <br />
+                טלפון:
+                <br />
+                <label for="Phone">
+                    <input type="text" id="Phone" />
+                </label>
+                <br />
+                <label for="Mail">
+                    דואר אלקטרוני:
+                    <br />
+                    <input type="text" id="Mail" />
+                </label>
+                <br />
+                נושא:
+                <br />
+                <label for="nose">
+                    <input type="text" id="Mail" />
+                </label>
+                <br />
+                הודעה:
+                <br />
+                <textarea rows="5" for="massege" id="mail"></textarea>
+
+                <input type="submit" id="Send" value="שלח">
+
+                <div id="feedback"></div>
+            </form>
+        </div>
+    </div>
+</body>
+</html>
