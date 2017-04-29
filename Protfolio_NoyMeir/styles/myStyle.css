@@ -28,6 +28,9 @@ body {
     float: left;
     margin-top: 10px;
 }
+#audio{
+    margin-top:10px;
+}
 
 nav.tafritrashi ul {
     padding: 0;
